@@ -34,7 +34,7 @@ Design and automate a Retrieval-Augmented Generation (RAG) pipeline that ingests
    Structured and normalized document input using n8n's internal loader to ensure consistent formatting for downstream processing.
 
 5. **Generated Embeddings with OpenAI**  
-   Converted each document chunk into high-dimensional vectors using OpenAI’s Embeddings API for efficient semantic matching.
+   Converted each document chunk into high-dimensional vectors using OpenAI’s Embeddings API for efficient matching.
 
 6. **Stored Embeddings in Pinecone Vector DB**  
    Indexed the embeddings within Pinecone, enabling fast vector similarity searches for question-answer retrieval.
