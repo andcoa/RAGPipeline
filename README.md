@@ -21,6 +21,8 @@ Design and automate a Retrieval-Augmented Generation (RAG) pipeline that ingests
 
 ## Steps  
 
+![image](https://github.com/user-attachments/assets/cf6faa41-d760-449b-b319-a5d2ace9341c)
+
 1. **Initiated Workflow with Google Drive Trigger**  
    Configured n8n to automatically detect new files uploaded to a specific Google Drive folder (`fileCreated` event), ensuring real-time ingestion with zero manual overhead.
 
@@ -50,5 +52,3 @@ Design and automate a Retrieval-Augmented Generation (RAG) pipeline that ingests
 
 10. **Tested and Validated End-to-End RAG Functionality**  
     Simulated document uploads and real-time chat prompts to confirm correct ingestion, vectorization, retrieval, and conversational output.
-
-![image](https://github.com/user-attachments/assets/cf6faa41-d760-449b-b319-a5d2ace9341c)
