@@ -57,4 +57,5 @@ Example:
 
 When asking it what is the warranty policy of an FAQ document uploaded in the Google Drive:
 
-![image](https://github.com/user-attachments/assets/b2dba617-fbc7-4f4a-8cc3-138000b8cc5c)
+![image](https://github.com/user-attachments/assets/336d4ee5-af00-4214-99c1-8eac98b1b539)
+
