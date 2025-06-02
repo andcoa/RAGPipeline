@@ -21,8 +21,6 @@ Design and automate a Retrieval-Augmented Generation (RAG) pipeline that ingests
 
 ## Steps  
 
-![image](https://github.com/user-attachments/assets/cf6faa41-d760-449b-b319-a5d2ace9341c)
-
 1. **Initiated Workflow with Google Drive Trigger**  
    Configured n8n to automatically detect new files uploaded to a specific Google Drive folder (`fileCreated` event), ensuring real-time ingestion with zero manual overhead.
 
@@ -48,4 +46,9 @@ Design and automate a Retrieval-Augmented Generation (RAG) pipeline that ingests
    Connected OpenRouter as the chat model responsible for generating responses based on relevant context pulled from Pinecone.
 
 9. **Enabled Vector Tool Lookup for Retrieval**  
-   Equipped the AI agent with a “Tool” connected to Pi
+   Equipped the AI agent with a “Tool” connected to Pinecone, allowing it to query the most relevant embedded data before crafting a response.
+
+10. **Tested and Validated End-to-End RAG Functionality**  
+    Simulated document uploads and real-time chat prompts to confirm correct ingestion, vectorization, retrieval, and conversational output.
+
+![image](https://github.com/user-attachments/assets/cf6faa41-d760-449b-b319-a5d2ace9341c)
