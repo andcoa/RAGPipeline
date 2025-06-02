@@ -52,3 +52,9 @@ Design and automate a Retrieval-Augmented Generation (RAG) pipeline that ingests
 
 10. **Tested and Validated End-to-End RAG Functionality**  
     Simulated document uploads and real-time chat prompts to confirm correct ingestion, vectorization, retrieval, and conversational output.
+
+Example:
+
+When asking it what is the warranty policy of an FAQ document uploaded in the Google Drive:
+
+![image](https://github.com/user-attachments/assets/b2dba617-fbc7-4f4a-8cc3-138000b8cc5c)
